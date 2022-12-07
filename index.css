@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 20;
+    font-family:Georgia, 'Times New Roman', Times, serif cursive;
+}
+
+.one{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:white;   
+}
+
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 0, 166);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:rgb(247, 165, 195);
+}
+
+.two{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.two h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+    font-style: inherit;
+}
+
+Span{
+    color:hotpink;
+}
+
+.two p{
+    color:rgb(0, 0, 103);
+    line-height: 22px;
+}
+
+.two a{
+    background: rgb(0, 0, 103);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radious: 5px;
+    padding-bottom: 20px;
+}
+
+.two a:hover{
+    color:hotpink;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    padding-right: 400px;
+}
+
+.images img{
+    height: 90%;
+    position: absolute;
+    left: 80%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .waves{
+    bottom: 20px;
+}
+
+.images:hover .kayla{
+    left:40%;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #7a053f;
+  }
+  
+  .contact {
+    border-radius: 5px;
+    background-color: #58c7ff;
+    padding: 20px;
+  }

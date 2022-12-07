@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.one{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:white;   
+}
+
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(2, 0, 0);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:rgb(247, 165, 195);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Newscrippssunset.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width: 450px;
+    background: rgb(91, 0, 47); 
+    text-align: center;
+    padding: 10px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif cursive;
+}
+
+.box-img{
+    border-radius: 90%;
+    width: 400px;
+    height: 300px;
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5{
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    text-indent: 0%;
+}
+
+.box p{
+    text-align: justify;
+}
+
+#Experience {
+    padding: 7% 15%;
+    text-align: center;
+    width: 450px;
+    background: rgb(91, 0, 58); 
+    text-align: center;
+    padding: 10px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif cursive;
+    padding-left: 10%;
+}
+
+h1{
+    text-indent: -25%;
+    padding:20px;
+}
